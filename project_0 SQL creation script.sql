@@ -1,3 +1,12 @@
+create table users(
+userid varchar(10) PRIMARY KEY NOT NULL,
+firstname varchar(35),
+lastname varchar(35),
+ssn char(9),
+password varchar(15)
+) 
+
+
 Create Table accounts(
 accountid SERIAL PRIMARY KEY not null,
 accountownershiptype varchar(15) NOT NULL,
